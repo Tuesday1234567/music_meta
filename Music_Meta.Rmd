@@ -1,0 +1,18 @@
+---
+title: "Meta_Music"
+author: "Nan Zhao"
+date: "2023-12-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# load data for all meta-analyses 
+load("dat_sleep.RData")
+load("dat_depress.RData")
+load("dat_anxiety.RData")
+```
+
