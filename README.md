@@ -8,7 +8,7 @@
 This repository consists of the files from meta-analyses section of the project "Music Interventions to Improve Sleep in Adults with Mental Health Problems: A systematic review and meta-analyses".
 
 ## Technologies Used
-Project is created with: 
+Project was created with: 
 * R version: 4.2.0 (2022-04-22)
 * RStudio version: 2023.06.1+524
 * MacOS Monterey version: 12.3
