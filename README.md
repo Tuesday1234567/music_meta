@@ -1,10 +1,10 @@
 
 ## Table of contents 
-* [General info](#general-info)
+* [General information](#general-information)
 * [Technolgies](#technologies)
 * [Setup](#setup)
 
-## General info
+## General information
 This repository consists of the files from meta-analyses section of the project "Music Interventions to Improve Sleep in Adults with Mental Health Problems: A systematic review and meta-analyses".
 
 ## Technologies
