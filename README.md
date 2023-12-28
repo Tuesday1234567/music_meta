@@ -1,13 +1,13 @@
 
-## Table of contents 
-* [General information](#general-information)
-* [Technolgies](#technologies)
+## Table of Contents 
+* [General Information](#general-information)
+* [Technologies Used](#technologies-used)
 * [Setup](#setup)
 
-## General information
+## General Information
 This repository consists of the files from meta-analyses section of the project "Music Interventions to Improve Sleep in Adults with Mental Health Problems: A systematic review and meta-analyses".
 
-## Technologies
+## Technologies Used
 Project is created with: 
 * R version: 4.2.0 (2022-04-22)
 * RStudio version: 2023.06.1+524
@@ -17,7 +17,7 @@ Project is created with:
 
 ### Viewing Results 
 To view the R codes and results of the meta-analyses: 
-* Download the file "Music_Meta.html" from the repository. 
+* Download the file "Music_Meta.html" from the repository.
 
 ### Replicating Results in R
 To re-run or replicate the results in R: 
