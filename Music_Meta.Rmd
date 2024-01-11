@@ -51,13 +51,15 @@ m.sleep <- metacont(n.e=n.e,
 summary(m.sleep)
 ```
 
-```{r plot_chunk1, fig.width=10, fig.height=3}
+```{r plot_chunk1, fig.width=10, fig.height=3.5}
 # Sleep forest plot 
 forest.meta(m.sleep, 
             sortvar = TE,
             prediction = FALSE, 
             print.tau2 = FALSE,
-            leftlabs = c("Author", "g", "SE"))
+            leftlabs = c("Author", "g", "SE"),
+            label.right = "Favors control",
+            label.left = "Favors intenvention")
 ```
 
 ```{r}
@@ -105,13 +107,15 @@ s1.sleep <- metacont(n.e=n.e,
 summary(s1.sleep)
 ```
 
-```{r plot_chunk2, fig.width=10, fig.height=2.5}
+```{r plot_chunk2, fig.width=10, fig.height=3.25}
 # s1 sleep forest plot
 forest.meta(s1.sleep, 
             sortvar = TE,
             prediction = FALSE, 
             print.tau2 = FALSE,
-            leftlabs = c("Author", "g", "SE"))
+            leftlabs = c("Author", "g", "SE"),
+            label.right = "Favors control",
+            label.left = "Favors intenvention")
 ```
 
 ```{r}
@@ -148,13 +152,15 @@ m.depress <- metacont(n.e=n.e,
 summary(m.depress)
 ```
 
-```{r plot_chunk3, fig.width=10, fig.height=2.5}
+```{r plot_chunk3, fig.width=10, fig.height=3}
 # Depression forest plot
 forest.meta(m.depress, 
             sortvar = TE,
             prediction = FALSE, 
             print.tau2 = FALSE,
-            leftlabs = c("Author", "g", "SE"))
+            leftlabs = c("Author", "g", "SE"),
+            label.right = "Favors control",
+            label.left = "Favors intenvention")
 ```
 
 ```{r}
@@ -203,13 +209,15 @@ summary(s1.depress)
 ```
 
 
-```{r plot_chunk4, fig.width=10, fig.height=2.5}
+```{r plot_chunk4, fig.width=10, fig.height=3}
 # s1 depress forest plot without the outlier 
 forest.meta(s1.depress, 
             sortvar = TE,
             prediction = FALSE, 
             print.tau2 = FALSE,
-            leftlabs = c("Author", "g", "SE"))
+            leftlabs = c("Author", "g", "SE"),
+            label.right = "Favors control",
+            label.left = "Favors intenvention")
 ```
 ```{r}
 # s1 Depression funnel plot without the outlier 
@@ -250,13 +258,15 @@ m.anxiety <- metacont(n.e=n.e,
 summary(m.anxiety)
 ```
 
-```{r plot_chunk5, fig.width=10, fig.height=2.5}
+```{r plot_chunk5, fig.width=10, fig.height=3}
 # anxiety forest plot 
 forest.meta(m.anxiety, 
             sortvar = TE,
             prediction = FALSE, 
             print.tau2 = FALSE,
-            leftlabs = c("Author", "g", "SE"))
+            leftlabs = c("Author", "g", "SE"),
+            label.right = "Favors control",
+            label.left = "Favors intenvention")
 ```
 ```{r}
 # Anxiety funnel plot 
@@ -303,13 +313,15 @@ summary(s1.anxiety)
 ```
 
 
-```{r plot_chunk6, fig.width=10, fig.height=2.5}
+```{r plot_chunk6, fig.width=10, fig.height=3}
 # s1 anxiety forest plot without the outlier 
 forest.meta(s1.anxiety, 
             sortvar = TE,
             prediction = FALSE, 
             print.tau2 = FALSE,
-            leftlabs = c("Author", "g", "SE"))
+            leftlabs = c("Author", "g", "SE"),
+            label.right = "Favors control",
+            label.left = "Favors intenvention")
 ```
 ```{r}
 # s1 Anxiety funnel plot without the outlier  
