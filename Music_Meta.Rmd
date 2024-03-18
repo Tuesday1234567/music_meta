@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ```{r}
-# load data for all meta-analyses 
+# load dataset for all meta-analyses 
 # Place the data set in the same folder with the .Rmd file to load data or specify the Github path
 
 dat_sleep <- read.csv("sleep.csv")
