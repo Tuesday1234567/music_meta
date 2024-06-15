@@ -31,7 +31,7 @@ To re-run or replicate the results in R:
 
 ``` R
 # Example using Github path 
-dat_sleep <- read.csv ("https://raw.githubusercontent.com/Tuesday1234567/music_meta/Updating/sleep.csv")
+dat_sleep <- read.csv ("https://raw.githubusercontent.com/Tuesday1234567/music_meta/main/sleep.csv")
 
     
 
